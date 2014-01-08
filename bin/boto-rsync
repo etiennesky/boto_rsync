@@ -318,7 +318,6 @@ def main():
         anon = args.anon
         endpoint = args.endpoint
         exclude = args.exclude
-        print(str(exclude))
         grant = args.grant
         metadata = args.metadata
         if not isinstance(metadata, dict):
